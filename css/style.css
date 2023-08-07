@@ -4,10 +4,10 @@
 :root{
     --white:#fff;
     --black:#000;
+    --perafont:20px;
 }
 
 /* <!-- ============================= working area start here ======================== --> */
-
 *{
     padding: 0;
     margin: 0;
@@ -47,11 +47,12 @@ header{
 nav{
     position: absolute;
     width: 100%;
+    border-bottom: 1px solid red;
 }
 .nav_wrapper{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
     cursor: pointer;
@@ -59,22 +60,21 @@ nav{
 .menu{
     display: flex;
     align-items: center;
-    gap: 20px;
+    column-gap: 20px;
 }
 .menu ul{
     display: flex;
-    gap: 37px;
+    column-gap: 30px;
     align-items: center;
 }
 .menu ul li a{
-    padding: 30px 10px;
+    padding: 35px 10px;
     color: #222;
     text-transform: capitalize;
     display: inline-block;
     transition: all linear 0.3s;
 }
 .menu ul li a:hover{
-    color: #ffc712;
     background-color: #fff9e6;
 }
 .nav_icon{
@@ -99,7 +99,8 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px 0;
+    padding: 100px 0;
+    border-bottom: 1px solid red;
 }
 .banner_content{
     width: 470px;
@@ -157,12 +158,14 @@ nav{
 /* <!-- ============================= about part start here ======================== --> */
 
 #about{
-    padding: 100px;
-    background-color: #f5f5f5;
+    padding: 50px 0;
+    background-color: #d4c8bcc2;
+    border-bottom: 1px solid red;
 }
 .about_wrapper{
     display: flex;
-    gap: 30px;
+    align-items: center;
+    column-gap: 30px;
 }
 .about_main{
     width: 570px;
@@ -209,24 +212,24 @@ nav{
 .about_btn .common_btn a:hover{
     background-color: #ffc712;
 }
-.about_img{
-    width: 570px;
-    height: 100px;
-}
 /* <!-- ============================= skill part start here ======================== --> */
 
 #skill{
-    padding: 100px 0;
+    padding: 50px 0;
+    border-bottom: 1px solid red;
+    background-color: #f5f5f5;
 }
 .skill_wrapper{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: var(--perafont);
 }
 .skill_progress_main{
-    width: 570px;
-    height: 200px;
+    width: 550px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     row-gap: 40px;
 }
@@ -243,9 +246,8 @@ nav{
     box-shadow: 10px 10px 5px #e3e3e3;
     cursor: pointer;
 }
-
 .progress{
-    width: 410px;
+    width: 270px;
     height: 10px;
     background-color: #ddd;
     border-radius: 5px;
@@ -259,13 +261,13 @@ nav{
     height: 100%;
     background-color: blue;
     top: 0;
-    right: 0;
+    right: 30px;
 }
 .skill_item{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 30px;
+    row-gap: 30px;
 }
 .skill_item.progress:nth-child(2)::after{
     background-color: var(--black);
@@ -282,8 +284,9 @@ nav{
 /* <!-- ============================= service part start here ======================== --> */
 
 #service{
-    padding: 100px 0;
-    background-color: #f5f5f5;
+    padding: 50px 0;
+    background-color: #c9ac91c7;
+    border-bottom: 1px solid red;
 }
 .service_wrapper{
     display: flex;
@@ -314,11 +317,11 @@ nav{
     justify-content: center;
 }
 .service_main{
-    padding: 20px;
+    padding: var(--perafont);
     transition: all linear 0.3s ;
 }
 .service_main h3{
-    font-size: 20px;
+    font-size: var(--perafont);
     font-weight: 600;
     color: #222;
     font-family: 'Ubuntu', sans-serif; 
@@ -328,7 +331,7 @@ nav{
     font-weight: 400;
     color: #444;
     font-family: 'Open Sans', sans-serif;
-    padding-top: 20px;
+    padding-top: var(--perafont);
     line-height: 24px;
 }
 .service_2{
@@ -336,8 +339,8 @@ nav{
     padding-top: 30px;
 }
 .service_2 h2{
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: var(--perafont);
+    font-size: var(--perafont);
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif; 
     display: flex;
@@ -351,6 +354,8 @@ nav{
 
 #portfolio{
     padding: 50px 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid red;
 }
 .portfolio_wrapper{
     display: flex;
@@ -384,7 +389,7 @@ nav{
 .service_btn .common_btn a{
     padding: 15px 30px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: var(--perafont);
     font-weight: 400;
     color: #0f2f44;
     font-family: 'Ubuntu', sans-serif; 
@@ -396,12 +401,13 @@ nav{
 /* <!-- ============================= testimonial part start here ======================== --> */
 
 #testimonial{
-    padding: 98px 0;
+    padding: 50px 0;
     background-color: #f5f5f5;
+    border-bottom: 1px solid red;
 }
 .testimonial_wrapper{
     display: flex;
-    gap: 20px;
+    gap: var(--perafont);
     padding-top: 30px;
 }
 .testimonial_main{
@@ -438,7 +444,7 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 .testimonial_details h3{
-    font-size: 20px;
+    font-size: var(--perafont);
     font-weight: 500;
     color: #0f2f44;
     font-family: 'Ubuntu', sans-serif;
@@ -458,7 +464,9 @@ nav{
 /* <!-- ============================= blog part start here ======================== --> */
 
 #blog{
-    padding: 100px;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid red;
 }
 .blog_wrapper{
     display: flex;
@@ -473,6 +481,7 @@ nav{
 .blog_main:hover{
     background-color: #0f2f44;
     color: var(--white);
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 .blog_main:hover h4{
     color: var(--white);
@@ -485,28 +494,29 @@ nav{
 }
 .blog_img{
     width: 370px;
-    transition: all linear 0.3s;
+}
+.blog_img img{
+    width: 100%;
+    object-fit: cover;
+    padding: var(--perafont);
 }
 .blog_img:hover img{
     rotate: 5deg;
-}
-.blog_img img{
-    padding: 20px;
 }
 .blog_details{
     font-size: 14px;
     font-weight: 300;
     color: #444;
     font-family: 'Ubuntu', sans-serif; 
-    padding: 20px;
+    padding: var(--perafont);
 }
 .blog_details h3{
-    font-size: 20px;
+    font-size: var(--perafont);
     font-weight: 600;
     color: #222;
     font-family: 'Ubuntu', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: var(--perafont);
+    padding-bottom: var(--perafont);
 }
 .blog_details a{
     color: #bcbcbc;
@@ -514,13 +524,14 @@ nav{
 /* <!-- ============================= footer part start here ======================== --> */
 
 #footer{
-    height: 500px;
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #f5f5f5;
+    border-bottom: 1px solid red;
 }
 .footer_wrapper{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: var(--perafont);
 }
 .footer_main{
     width: 270px;
@@ -538,7 +549,7 @@ nav{
     padding-top: 50px;
 }
 .footer_icon i{
-    font-size: 20px;
+    font-size: var(--perafont);
     border:  1px solid #0f2f44;
     padding: 15px 15px;
     border-radius: 50%;
@@ -554,16 +565,18 @@ nav{
     cursor: pointer;
 }
 .contact_heading{
-    font-size: 20px;
+    font-size: var(--perafont);
     font-weight: 500;
     color: #222;
     font-family: 'Ubuntu', sans-serif; 
     text-transform: capitalize;
 }
 .location_main i{
+    text-align: center;
     color: #777;
-    font-size: 20px;
+    font-size: var(--perafont);
     cursor: pointer;
+    padding-right: 10px;
 }
 .location_main h4{
     font-size: 14px;
@@ -573,14 +586,14 @@ nav{
 }
 .location_main{
     display: flex;
-    padding-top: 35px;
-    gap: 22px;
+    padding: 30px 0;
+    row-gap: 22px;
 }
 .import_link{
     padding-top: 25px;
 }
 .import_link h2{
-    font-size: 20px;
+    font-size: var(--perafont);
     font-weight: 500;
     color: #222;
     font-family: 'Ubuntu', sans-serif;
@@ -620,7 +633,6 @@ nav{
 #copywrite{
     padding: 25px 0;
     background-color: #f2f2f2;
-    border-top: 1px solid red;
 }
 .copywrite_main h4{
     text-align: center;
