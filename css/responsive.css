@@ -1,0 +1,585 @@
+
+
+/* ================ Extra small device =============== */
+
+@media(max-width:575.98px){
+    
+/* ============================ header part start here ===================== */
+
+.header_wrapper {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.header_wrapper span {
+    text-align: center;
+}
+
+/* ============================ navbar part start here ===================== */
+
+.nav_wrapper {
+    flex-direction: column;
+    padding: 10px 0;
+}
+.menu {
+    flex-direction: column;
+}
+.menu ul {
+    flex-direction: column;
+    row-gap: 15px;
+}
+.menu ul li a {
+    padding: 8px 5px;
+}
+.nav_icon i {
+    padding: 10px;
+}
+.nav_icon {
+    column-gap: 80px;
+}
+
+/* ============================ banner part start here ===================== */
+
+.banner_content h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.banner_content h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.banner_content h3 {
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    padding: 25px 0;
+}
+.banner_content {
+    width: 100%;
+    padding: 450px 25px 25px 25px;
+}
+.common_btn {
+    justify-content: center;
+    padding-top: 20px;
+}
+.common_btn a {
+    padding: 7px 15px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 12px;
+}
+#banner {
+    padding: 5px 0;
+}
+
+/* ============================ about part start here ===================== */
+
+.about_wrapper {
+    flex-direction: column;
+}
+.about_img img{
+    width: 100%;
+    height: 300px;
+    margin-top: 25px;
+}
+.common_heading {
+    text-align: center;
+}
+.about_details {
+    text-align: center;
+    padding: 0 25px;
+}
+.common_heading p {
+    padding: 0 25px;
+    line-height: 24px;
+}
+.about_details {
+    text-align: center;
+}
+.about_details p{
+    text-align: center;
+    line-height: 24px;
+}
+.about_main {
+    width: 100%;
+}
+.about_btn .common_btn a {
+    padding: 11px 12px;
+}
+
+/* ============================ skill part start here ===================== */
+
+.skill_wrapper {
+    flex-direction: column;
+}
+.skill_wrapper .common_heading {
+    text-align: center;
+}
+.skill_progress_main {
+    width: 100%;
+}
+.skill_img img{
+    width: 100%;
+    height: 200px;
+}
+.progress {
+    width: 200px;
+}
+
+/* ============================ service part start here ===================== */
+
+.service_wrapper {
+    gap: 15px;
+    flex-direction: column;
+}
+.service_1 {
+    width: 300px;
+}
+.service_main p {
+    font-size: 13px;
+    line-height: 15px;
+}
+/* ============================ portfolio part start here ===================== */
+
+.portfolio_wrapper {
+    gap: 6px;
+    padding: 25px;
+}
+.service_btn .common_btn a {
+    font-size: 14px;
+    padding: 10px 15px;
+    color: #fff;
+}
+.service_btn .common_btn {
+    padding: 5px 0;
+}
+/* ============================ testimonial part start here ===================== */
+.testimonial_wrapper {
+    flex-direction: column;
+}
+.testimonial_details p {
+    font-size: 14px;
+    line-height: 14px;
+}
+.testimonial_img{
+    padding-top: 87px;
+    width: 170px;
+    background: none;
+}
+/* ============================ blog part start here ===================== */
+.blog_wrapper {
+    gap: 20px;
+    flex-direction: column;
+}
+.blog_details h3 {
+    font-size: 14px;
+}
+.blog_img {
+    width: 100%;
+}
+.blog_main {
+    width: 100%;
+}
+/* ============================ footer part start here ===================== */
+.footer_wrapper {
+    flex-direction: column;
+}
+/* ============================ copywrite part start here ===================== */
+
+#copywrite {
+    padding: 15px 0;
+}
+.copywrite_main h4 {
+    font-size: 8px;
+    color: #fff;
+}
+}
+
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+    
+        /* ============================ header part start here ===================== */
+        
+        .header_wrapper {
+            padding: 0 25px;
+        }
+        .header_wrapper span {
+            text-align: center;
+        }
+        
+        /* ============================ navbar part start here ===================== */
+        
+        .nav_wrapper {
+            flex-direction: column;
+            padding: 10px 0;
+        }
+        .menu {
+            flex-direction: column;
+        }
+        .menu ul {
+            flex-direction: column;
+            row-gap: 15px;
+        }
+        .menu ul li a {
+            padding: 8px 5px;
+        }
+        .nav_icon i {
+            padding: 15px;
+        }
+        .nav_icon {
+            column-gap: 80px;
+        }
+        
+        /* ============================ banner part start here ===================== */
+        
+        .banner_content h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+        .banner_content h2 {
+            font-size: 35px;
+            text-align: center;
+        }
+        .banner_content h3 {
+            font-size: 25px;
+            text-align: center;
+            color: #000;
+            padding: 25px 0;
+        }
+        .banner_content {
+            width: 100%;
+            padding: 450px 25px 25px 25px;
+        }
+        .common_btn {
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .common_btn a {
+            padding: 15px 30px;
+            background-color: blueviolet;
+            color: #fff;
+            font-size: 18px;
+        }
+        #banner {
+            padding: 5px 0;
+        }
+        
+        /* ============================ about part start here ===================== */
+        
+        .about_wrapper {
+            flex-direction: column;
+        }
+        .about_img img{
+            width: 100%;
+            height: 300px;
+            margin-top: 25px;
+        }
+        .common_heading {
+            text-align: center;
+        }
+        .about_details {
+            text-align: center;
+            padding: 0 25px;
+        }
+        .common_heading p {
+            padding: 0 25px;
+            line-height: 24px;
+        }
+        .about_details {
+            text-align: center;
+        }
+        .about_details p{
+            text-align: center;
+            line-height: 24px;
+        }
+        .about_main {
+            width: 100%;
+        }
+        .about_btn .common_btn a {
+            padding: 15px 30px;
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        /* ============================ skill part start here ===================== */
+        
+        .skill_wrapper {
+            flex-direction: column;
+        }
+        .skill_wrapper .common_heading {
+            text-align: center;
+        }
+        .skill_progress_main {
+            width: 100%;
+        }
+        .skill_img img{
+            width: 100%;
+            height: 200px;
+        }
+        .progress {
+            width: 500px;
+        }
+        
+        /* ============================ service part start here ===================== */
+        
+        .service_wrapper {
+            gap: 15px;
+            flex-direction: column;
+        }
+        .service_1 {
+            width: 600px;
+        }
+        .service_main p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        /* ============================ portfolio part start here ===================== */
+        
+        .portfolio_wrapper {
+            gap: 6px;
+            padding: 25px;
+        }
+        .service_btn .common_btn a {
+            font-size: 14px;
+            padding: 10px 15px;
+            color: #fff;
+        }
+        .service_btn .common_btn {
+            padding: 5px 0;
+        }
+        /* ============================ testimonial part start here ===================== */
+        .testimonial_wrapper {
+            flex-direction: column;
+        }
+        .testimonial_details p {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .testimonial_img{
+            padding-top: 87px;
+            width: 170px;
+            background: none;
+        }
+        /* ============================ blog part start here ===================== */
+        .blog_wrapper {
+            gap: 20px;
+            flex-direction: column;
+        }
+        .blog_details h3 {
+            font-size: 14px;
+        }
+        .blog_img {
+            width: 100%;
+        }
+        .blog_main {
+            width: 100%;
+        }
+        /* ============================ footer part start here ===================== */
+        .footer_wrapper {
+            flex-direction: column;
+        }
+        /* ============================ copywrite part start here ===================== */
+        
+        #copywrite {
+            padding: 15px 0;
+        }
+        .copywrite_main h4 {
+            font-size: 8px;
+            color: #fff;
+        }
+        
+}
+
+/*=================== Medium device =================== */
+
+@media(min-width:768px) and (max-width:991.98px){
+    
+        /* ============================ header part start here ===================== */
+        
+        .header_wrapper {
+            padding: 0 25px;
+        }
+        .header_wrapper span {
+            text-align: center;
+        }
+        
+        /* ============================ navbar part start here ===================== */
+        
+        .nav_wrapper {
+            padding: 10px 0;
+        }
+        .menu ul {
+            row-gap: 15px;
+        }
+        .menu ul li a {
+            padding: 8px 5px;
+        }
+        .nav_icon i {
+            padding: 15px;
+        }
+        .nav_icon {
+            column-gap: 25px;
+        }
+        
+        /* ============================ banner part start here ===================== */
+        
+        .banner_content h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+        .banner_content h2 {
+            font-size: 35px;
+            text-align: center;
+        }
+        .banner_content h3 {
+            font-size: 25px;
+            text-align: center;
+            color: #000;
+            padding: 25px 0;
+        }
+        .banner_content {
+            width: 100%;
+            padding: 450px 25px 25px 25px;
+        }
+        .common_btn {
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .common_btn a {
+            padding: 15px 30px;
+            background-color: blueviolet;
+            color: #fff;
+            font-size: 18px;
+        }
+        #banner {
+            padding: 5px 0;
+        }
+        
+        /* ============================ about part start here ===================== */
+        
+        .about_wrapper {
+            flex-direction: column;
+        }
+        .about_img img{
+            width: 100%;
+            height: 300px;
+            margin-top: 25px;
+        }
+        .common_heading {
+            text-align: center;
+        }
+        .about_details {
+            text-align: center;
+            padding: 0 25px;
+        }
+        .common_heading p {
+            padding: 0 25px;
+            line-height: 24px;
+        }
+        .about_details {
+            text-align: center;
+        }
+        .about_details p{
+            text-align: center;
+            line-height: 24px;
+        }
+        .about_main {
+            width: 100%;
+        }
+        .about_btn .common_btn a {
+            padding: 15px 30px;
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        /* ============================ skill part start here ===================== */
+        
+        .skill_wrapper {
+            flex-direction: column;
+        }
+        .skill_wrapper .common_heading {
+            text-align: center;
+        }
+        .skill_progress_main {
+            width: 100%;
+        }
+        .skill_img img{
+            width: 100%;
+            height: 200px;
+        }
+        .progress {
+            width: 500px;
+        }
+        
+        /* ============================ service part start here ===================== */
+        
+        .service_wrapper {
+            gap: 15px;
+            flex-direction: column;
+        }
+        .service_1 {
+            width: 600px;
+        }
+        .service_main p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        /* ============================ portfolio part start here ===================== */
+        
+        .portfolio_wrapper {
+            gap: 6px;
+            padding: 25px;
+        }
+        .service_btn .common_btn a {
+            font-size: 14px;
+            padding: 10px 15px;
+            color: #fff;
+        }
+        .service_btn .common_btn {
+            padding: 5px 0;
+        }
+        /* ============================ testimonial part start here ===================== */
+        .testimonial_wrapper {
+            flex-direction: column;
+        }
+        .testimonial_details p {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .testimonial_img{
+            padding-top: 87px;
+            width: 170px;
+            background: none;
+        }
+        /* ============================ blog part start here ===================== */
+        .blog_wrapper {
+            gap: 20px;
+            flex-direction: column;
+        }
+        .blog_details h3 {
+            font-size: 14px;
+        }
+        .blog_img {
+            width: 100%;
+        }
+        .blog_main {
+            width: 100%;
+        }
+        /* ============================ footer part start here ===================== */
+        .footer_wrapper {
+            flex-direction: column;
+        }
+        /* ============================ copywrite part start here ===================== */
+        
+        #copywrite {
+            padding: 15px 0;
+        }
+        .copywrite_main h4 {
+            font-size: 8px;
+            color: #fff;
+        }
+
+}
+
+
+
