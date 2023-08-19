@@ -141,8 +141,12 @@
 /* ============================ portfolio part start here ===================== */
 
 .portfolio_wrapper {
+    flex-direction: column;
     gap: 6px;
     padding: 25px;
+}
+.portfolio_img {
+    width: 100%;
 }
 .service_btn .common_btn a {
     font-size: 14px;
@@ -157,7 +161,7 @@
     flex-direction: column;
 }
 .testimonial_details p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 14px;
 }
 .testimonial_img{
@@ -336,6 +340,7 @@
         /* ============================ portfolio part start here ===================== */
         
         .portfolio_wrapper {
+            flex-direction: column;
             gap: 6px;
             padding: 25px;
         }
@@ -355,10 +360,16 @@
             font-size: 14px;
             line-height: 14px;
         }
+        .testimonial_details {
+            width: 100%;
+        }
         .testimonial_img{
-            padding-top: 87px;
+            padding-top: 30px;
             width: 170px;
             background: none;
+        }
+        .testi_info {
+            padding-top: 21px;
         }
         /* ============================ blog part start here ===================== */
         .blog_wrapper {
@@ -544,10 +555,16 @@
         }
         .testimonial_details p {
             font-size: 14px;
-            line-height: 14px;
+            line-height: 18px;
+        }
+        .testimonial_details {
+            width: 100%;
+        }
+        .testi_info {
+            padding-top: 18px;
         }
         .testimonial_img{
-            padding-top: 87px;
+            padding-top: 15px;
             width: 170px;
             background: none;
         }
